@@ -66,7 +66,9 @@ plt.figure(3)
 general_heights = df[df.hospital == "general"]["height"]
 prenatal_heights = df[df.hospital == "prenatal"]["height"]
 sports_heights = df[df.hospital == "sports"]["height"]
-plt.violinplot(dataset=[general_heights, prenatal_heights, sports_heights], showmeans=True, showmedians=True, showextrema=True)
+plt.violinplot(dataset=[general_heights, prenatal_heights, sports_heights],
+               showmeans=True, showmedians=True,
+               showextrema=True)
 answers.append("General: All kinds of people | Prenatal: Woman | Sports: Athletes (not sure why reaching 5++)")
 
 plt.show()
