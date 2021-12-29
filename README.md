@@ -6,7 +6,7 @@ Conduct a comprehensive data study using pandas library: from loading and correc
 Link to the project [Data Analysis for Hospitals](https://hyperskill.org/projects/152).
 
 ## Demo
-
+![DataAnalysisforHospitals](https://user-images.githubusercontent.com/63540951/147676124-f7a41da4-9b23-4d01-97dd-c330cf3b9d4e.gif)
 
 ## Stages
 **Stage 1/5: Upload the data**\
